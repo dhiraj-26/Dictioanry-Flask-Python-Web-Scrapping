@@ -5,6 +5,7 @@ from Model import database
 
 app = Flask(__name__)
 
+#Homepage Landing Page
 @app.route("/Homepage")
 def homepage():
     return render_template("Homepage.html")
